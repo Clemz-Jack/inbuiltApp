@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+  
+  
+  .container{
+    width: 80%;
+    margin: auto;
+    background: darkgoldenrod;
+    overflow: hidden;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+
+  
+  .container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .gin{
+    width: 400px;
+  }
+ 
+
+
+    @media (max-width: 320px) {
+      .container{
+    
+    
+    background: black;
+    
+    
+    font-size: 40px;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+  }
+
+  .gin{
+    width: 100px;
+  }
+
+  
+  .container div{
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+  }
+  .container div h1{
+    font-size: 20px;
+    color: red;
+  }
+    }
+
+    @media (min-width: 321px) and  (max-width: 480px) {
+      .container{
+    
+    
+    background:  orange;
+    
+    
+    font-size: 40px;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    flex-direction: column;
+    padding: 29px;
+  }
+
+  .gin{
+    width: 150px;
+  }
+
+  
+  .container div{
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+  }
+  .container div h1{
+    font-size: 20px;
+    color:green;
+  }
+
+    }
+
+    @media (min-width: 481px) and  (max-width: 768px) {
+      .container{
+    
+    
+    background:  red;
+    
+    
+    font-size: 40px;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+    padding: 29px;
+  }
+
+  .gin{
+    width: 200px;
+  }
+
+  
+  .container div{
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+  }
+  .container div h1{
+    font-size: 30px;
+    color: purple;
+  }
+
+  .container div p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+    }
+
+    @media (min-width: 769px) and  (max-width: 1024px) {
+      
+  .container{
+    width: 80%;
+    margin: auto;
+    background: brown;
+    overflow: hidden;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+
+  
+  .container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .gin{
+    width:  200px;
+  }
+
+  .container div h1{
+    font-size: 20px;
+    color: white;
+  }
+
+  .container div p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+ 
+
+    }
+
+    @media (min-width: 1025px) and  (max-width: 1200px) {
+       
+  .container{
+    width: 80%;
+    margin: auto;
+    background: green;
+    overflow: hidden;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+
+  
+  .container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .gin{
+    width: 400px;
+  }
+    }
+  
+  
+</style>
+
+</head>
+<body>
+  
+
+  <section class="container">
+    <div class="absolute">
+      <img  class="gin" src="pro.jpg" alt="">
+      <div><h1>HTML5</h1>
+      <P>working on html monthly <br> princing: 30,000</P></div>
+    </div>
+
+
+    <div class="absolute">
+      <img  class="gin" src="pro.jpg" alt="">
+      <div><h1>CSS3</h1>
+        <P>working on CSS3 monthly <br> princing: 20,000</P></div>
+    </div>
+
+    <div class="absolute">
+      <img src="pro.jpg" alt=""  class="gin">
+      <div><h1>JAVASCRIPT</h1>
+        <P>working on JAVASCRIPT monthly <br> princing: 70,000</P></div>
+    </div>
+  </section>
+  <a href="cafe.html">Next</a>
+</body>
+</html>
